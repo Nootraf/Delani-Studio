@@ -1,7 +1,6 @@
+
 # Delani-Studio
-A project for designing any of one's desires
-# Delani-Studio
-#### {A} website for designing any of one's desires. {Feb 21,2020}
+#### A website for designing any of one's desires. {Feb 21,2020}
 #### By **{Fartoon Abdi}**
 ## Description
 this is an application here one can be able to design their verry own wildest imaginations see them come to life.
