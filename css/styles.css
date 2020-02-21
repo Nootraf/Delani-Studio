@@ -42,3 +42,7 @@
  .centered {
      border-image: auto;
  }
+ 
+ #contact-us {
+     background-image: url("../img/c_image.jpg");
+ }
