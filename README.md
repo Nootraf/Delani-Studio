@@ -9,7 +9,7 @@ this is an application here one can be able to design their verry own wildest im
 * Install VSC or Atom
 * Instal Linux
 ## Known Bugs
-There aren't any know bugs in this application.
+There aren't any known Bugs in this application.
 ## Technologies Used
 HTML,CSS,Bootstrap,JQuery
 ## Support and contact details
