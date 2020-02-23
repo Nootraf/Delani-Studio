@@ -17,7 +17,7 @@ If there are any issues encountered while using this app, pleasereach me via my 
 ### License
 MIT License
 
-Copyright (c) [2020] [Delani Studio]
+Copyright (c) [2020] [Massachussete Institute of Technology]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
