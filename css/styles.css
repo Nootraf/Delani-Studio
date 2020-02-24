@@ -82,3 +82,15 @@
        background-size: cover;
        height: 40%;
    }
+   
+   #company {
+       text-align: center;
+   }
+   
+   #icons {
+       text-align: center;
+   }
+   
+   #portfolio {
+       text-align: center;
+   }
