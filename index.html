@@ -6,7 +6,7 @@
     <!-- <link href="js/bootstrap.js" rel="stylesheet" type="text/js"> -->
     <link href=" css/bootstrap.css " rel="stylesheet " type="text/css ">
     <link href="css/styles.css " rel="stylesheet " type="text/css ">
-    <script src="js/jquery-3.3.1.js "></script>
+    <script src="js/jquery-3.4.1.js "></script>
     <script src="js/scripts.js "></script>
     <title>Delani Studio</title>
 </head>
@@ -45,86 +45,84 @@
             <p>We can provide a complete offering or just the pieces you need.</p>
         </div>
     </div>
-
-    <section class="container" id="icons">
+    <br>
+    <br>
+    <div id="icons">
         <h2>WHAT WE DO</h2>
         <div class="row">
-            <div class="col-md-3 ">
-                <div class="icons" id="design-icon"><img src="/img/design_icon.png" alt="design_icon">
-                    <h3>DESIGN</h3>
-                </div>
+            <div class="col-md-4">
+                <img src="./img/design_icon.png" alt="design_icon" id="design-icon">
                 <div id="design">
+                    <h3>DESIGN</h3>
                     <p><strong>DESIGN</strong><br>
                         <p> Design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.</p>
                         <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.</p>
                 </div>
             </div>
-            <div class="col-md-3 ">
-
-                <div class="icons" id="dev-icon"><img src="./img/dev_icon.png " alt="dev_icon "><span class="clickable"></span>
-                    <h3>DEVELOPMENT</h3>
-                </div>
+            <div class="col-md-4">
+                <img src="./img/dev_icon.png " alt="dev_icon " id="dev-icon "><span class="clickable "></span>
                 <div id="developement">
+                    <h3>DEVELOPMENT</h3>
+
                     <p><strong>DEVELOPMENT</strong><br> All engineers are fluent in the latest enterprise, mobile and web development technologies.</p>
                     <p>They collaborate with your team to write, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.</p>
-                    <span class="clickable">Click here</span>
+                    <span class="clickable ">Click here</span>
                 </div>
             </div>
-            <div class="col-md-3">
-                <div class="icons" id="product-icon"><img src="./img/product_icon.png " alt="product_icon ">
-                    <h3>PRODUCT MANAGEMENT</h3>
-                </div>
-                <div id="product-management ">
-                    <p><strong>PRODUCT MANAGEMENT</strong> <br> Planning and development is interactive. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
-                    <p>This interactive process allows for changes as business requirements evolve.</p>
+            <div class="col-md-4">
+                <div id="product-icon"><img src="./img/product_icon.png " alt="product_icon ">
+                    <div id="product-management ">
+                        <h3>PRODUCT MANAGEMENT</h3>
+
+                        <p><strong>PRODUCT MANAGEMENT</strong> <br> Planning and development is interactive. Because we are constantly coding and testing, the products we build are always ready to go live.</p>
+                        <p>This interactive process allows for changes as business requirements evolve.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
-    <section id="portfolio">
-        <div class="container">
-            <h2>PORTFOLIO</h2>
-            <div id="portfolio-images ">
-                <img src=" ./img/work1.jpg ">
-                <img src=" ./img/work2.jpg ">
-                <img src="./img/work3.jpg ">
-                <img src="./img/work4.jpg ">
-                <img src="./img/work5.jpg ">
-                <img src="./img/work6.jpg ">
-                <img src=" ./img/work7.jpg ">
-                <img src="./img/work8.jpg ">
+        <section id="portfolio ">
+            <div class="container ">
+                <h2>PORTFOLIO</h2>
+                <div id="portfolio-images ">
+                    <img src=" ./img/work1.jpg ">
+                    <img src=" ./img/work2.jpg ">
+                    <img src="./img/work3.jpg ">
+                    <img src="./img/work4.jpg ">
+                    <img src="./img/work5.jpg ">
+                    <img src="./img/work6.jpg ">
+                    <img src=" ./img/work7.jpg ">
+                    <img src="./img/work8.jpg ">
+                </div>
             </div>
-        </div>
-    </section>
-    <div class="container">
-        <div id="back-contact">
+        </section>
+
+        <div id="back-contact ">
             <!-- <img src="/img/c_image.jpg "> -->
             <!-- </div> -->
             <h3><strong>CONTACT US</strong></h3>
 
-            <form id="contactform">
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label for="name"></label>
-                        <input type="text" class="form-control" id="name" placeholder="Name...">
+            <form id="contactform ">
+                <div class="form-row ">
+                    <div class="col-md-6 ">
+                        <label for="name "></label>
+                        <input type="text " class="form-control " id="name " placeholder="Name... ">
                     </div>
-                    <div class="form-group col-md-6">
-                        <br><label for="inputEmail"></label>
-                        <input type="text" class="form-control" id="inputEmail" placeholder="Email...">
+                    <div class="col-md-6 ">
+                        <br><label for="inputEmail "></label>
+                        <input type="text " class="form-control " id="inputEmail " placeholder="Email... ">
                     </div>
                 </div>
                 <div class=" form-group border ">
                     <!-- <label for="message "></label> -->
-                    <br><textarea class="form-control" id="message" style="height: 300px" placeholder="Your text here..."></textarea>
+                    <br><textarea class="form-control " id="message " style="height: 300px " placeholder="Your text here... "></textarea>
                 </div>
 
-                <button type="submit" id="submit" class="btn btn-primary">Submit</button>
+                <button type="submit " id="submit " class="btn btn-primary ">Submit</button>
             </form>
             <span id="feedback "></span>
-            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-            <script src="js/scripts.js"></script>
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=" anonymous "></script>
+            <script src="js/scripts.js "></script>
         </div>
-    </div>
     </div>
     </div>
     </section>
