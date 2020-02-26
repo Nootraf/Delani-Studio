@@ -3,47 +3,42 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- <link href="js/bootstrap.js" rel="stylesheet" type="text/js"> -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
     <link href=" css/bootstrap.css " rel="stylesheet " type="text/css ">
     <link href="css/styles.css " rel="stylesheet " type="text/css ">
-    <script src="js/jquery-3.4.1.js "></script>
-    <script src="js/scripts.js "></script>
     <title>Delani Studio</title>
 </head>
 
 <body>
-    <div class="container ">
-        <img src="img/h_img.jpg ">
-        <div class="centered ">
-            <div id="logo "><img src=" img/logo.png "> </div>
-            <br>
-            <br>
-            <h1>WELCOME<br>TO DELANI STUDIO</h1>
-            <p>
-                <strong>Amazing people are making amazing styles in a fun environment!</strong>
-            </p>
+    <!-- <div class="container "> -->
+    <div class="row" id="row">
+        <div class="col-md-12"><br> <br><br><br><br><img src="img/logo.png"></div><br>
+        <div class="col-md-12">
+            <h1>WELCOME<br><br>TO DELANI STUDIO</h1>
+        </div> <br><br>
+        <div class="col-md-12">
+            <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+        </div> <br> <br><br><br><br><br><br><br><br><br>
+        <div class="col-md-12"><img src="img/mouse_click.png"></div><br> <br><br> <br>
 
-            <br>
-            <br>
-            <div id="mouse "><img src=" img/mouse_click.png "></div>
-        </div>
-        <div id="ret">
-            <h2 id="ret">ABOUT US</h2>
-            <p>Working with us means that you are a part of a team that is more than ready to design a world far different from what we are all used to seeing </p>
+    </div>
+    <div id="ret">
+        <h2 id="ret">ABOUT US</h2>
+        <p>Working with us means that you are a part of a team that is more than ready to design a world far different from what we are all used to seeing </p>
 
-            <p>
-                <br>All aspects of our softwae development process are intergrated,interactive and agile.</p>
+        <p>
+            <br>All aspects of our softwae development process are intergrated,interactive and agile.</p>
 
-            <p>Our approach unifies design, development and product management to create exceptional products.
-                <p>We start each project by understanding your business goals, the user 's needs and the product requirements.</p>
-                <p>Then we help transalte them into effective and elegant solutions.</p>
-        </div>
-        <div id="service">
-            <h1>SERVICES</h1>
-            <p>Before we sign a contract or write a line of code, our team will spend the necessary time needed to understand your product vision.</p>
-            <p>The outcome of this scoping session is a proposal or high-level statement of work based on your requirements.</p>
-            <p>We can provide a complete offering or just the pieces you need.</p>
-        </div>
+        <p>Our approach unifies design, development and product management to create exceptional products.
+            <p>We start each project by understanding your business goals, the user 's needs and the product requirements.</p>
+            <p>Then we help transalte them into effective and elegant solutions.</p>
+    </div>
+    <div id="service">
+        <h1>SERVICES</h1>
+        <p>Before we sign a contract or write a line of code, our team will spend the necessary time needed to understand your product vision.</p>
+        <p>The outcome of this scoping session is a proposal or high-level statement of work based on your requirements.</p>
+        <p>We can provide a complete offering or just the pieces you need.</p>
+    </div>
     </div>
     <br>
     <br>
@@ -80,53 +75,71 @@
                 </div>
             </div>
         </div>
-        <section id="portfolio ">
-            <div class="container ">
-                <h2>PORTFOLIO</h2>
-                <div id="portfolio-images ">
-                    <img src=" ./img/work1.jpg ">
-                    <img src=" ./img/work2.jpg ">
-                    <img src="./img/work3.jpg ">
-                    <img src="./img/work4.jpg ">
-                    <img src="./img/work5.jpg ">
-                    <img src="./img/work6.jpg ">
-                    <img src=" ./img/work7.jpg ">
-                    <img src="./img/work8.jpg ">
+    </div>
+
+
+
+    <div class="container-fluid">
+        <div class="head row ">
+            <h2 class="col-12 ">PORTFOLIO</h2>
+        </div>
+        <div class="row one ">
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <img src="img/work1.jpg ">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <img src="img/work2.jpg ">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <img src="img/work3.jpg ">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <img src="img/work4.jpg ">
+            </div>
+        </div>
+        <div class="row two ">
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <img src="img/work5.jpg ">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <img src="img/work6.jpg ">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <img src="img/work7.jpg ">
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <img src="img/work8.jpg ">
+            </div>
+        </div>
+
+    </div>
+    <br><br>
+    <div id="back-contact">
+        <h3><strong>CONTACT US</strong></h3>
+
+        <form id="contactform ">
+            <div class="form-row ">
+                <div class="col-md-6 ">
+                    <label for="name "></label>
+                    <input type="text " class="form-control " id="name " placeholder="Name... ">
+                </div>
+                <div class="col-md-6 ">
+                    <label for="inputEmail "></label>
+                    <input type="text " class="form-control " id="inputEmail " placeholder="Email... ">
                 </div>
             </div>
-        </section>
+            <div class=" form-group border ">
+                <br><textarea class="form-control " id="message " style="height: 300px " placeholder="Your text here... ">
+                    </textarea>
+            </div>
 
-        <div id="back-contact ">
-            <!-- <img src="/img/c_image.jpg "> -->
-            <!-- </div> -->
-            <h3><strong>CONTACT US</strong></h3>
+            <button type="submit " id="submit " class="btn btn-primary ">Submit</button>
+        </form>
+        <span id="feedback "></span>
 
-            <form id="contactform ">
-                <div class="form-row ">
-                    <div class="col-md-6 ">
-                        <label for="name "></label>
-                        <input type="text " class="form-control " id="name " placeholder="Name... ">
-                    </div>
-                    <div class="col-md-6 ">
-                        <br><label for="inputEmail "></label>
-                        <input type="text " class="form-control " id="inputEmail " placeholder="Email... ">
-                    </div>
-                </div>
-                <div class=" form-group border ">
-                    <!-- <label for="message "></label> -->
-                    <br><textarea class="form-control " id="message " style="height: 300px " placeholder="Your text here... "></textarea>
-                </div>
-
-                <button type="submit " id="submit " class="btn btn-primary ">Submit</button>
-            </form>
-            <span id="feedback "></span>
-            <script src="https://code.jquery.com/jquery-3.3.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=" anonymous "></script>
-            <script src="js/scripts.js "></script>
-        </div>
-    </div>
     </div>
     </section>
-    <footer class="footers " id="footers ">
+    <footer class="footer" id="footer">
         <div class="social-icons " id="social-icons ">
             <img src="img/pinterest.png " alt="pinterest-icon " style="margin: 0px 10px ">
             <img src="img/skype.png " alt="skype-icon " style="margin: 0px 10px ">
@@ -141,6 +154,8 @@
             <span>2020</span>
         </p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js " integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin=" anonymous "></script>
+    <script src="js/scripts.js "></script>
 </body>
 
 </html>

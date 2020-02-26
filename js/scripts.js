@@ -1,5 +1,14 @@
 $(document).ready(function() {
-            $("submit").submit(function() {
-                alert("Thank you for contacting us,your response has been submitted")
-
-            });
+    $("#design").click(function() {
+        $("#design-icon").toggle();
+        $("#design").toggle();
+    });
+    $("#dev").click(function() {
+        $(".dev-icon").toggle();
+        $(".dev").toggle();
+    });
+    $("#pm").click(function() {
+        $(".pm-icon").toggle();
+        $(".product").toggle();
+    });
+});
